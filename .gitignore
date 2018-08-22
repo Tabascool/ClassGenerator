@@ -1,0 +1,73 @@
+# Created by https://www.gitignore.io
+
+### Qt ###
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+
+# QtCreator
+
+*.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+
+### C++ ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+build-ClassGenerator-Desktop_Qt_5_4_1_clang_64bit-Debug
+build-ClassGenerator-Desktop_Qt_5_4_1_MSVC2013_OpenGL_64bit-Debug
+build-ClassGenerator-Desktop_Qt_5_4_1_clang_64bit-Release
+build-ClassGenerator-Desktop_Qt_5_4_1_MSVC2013_64bit-Debug
